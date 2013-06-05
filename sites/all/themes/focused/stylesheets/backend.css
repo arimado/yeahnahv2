@@ -1,0 +1,611 @@
+/* PAGE */
+
+#backend-header {
+	margin: 50px 0px 0px 0px;
+}
+
+#content-backend {
+	float: left;
+	width: 453px;
+}
+
+#backend-sidebar {
+	float: right;
+	width: 452px;
+	border-left: 1px solid #ccc;
+}
+
+#backend-sidebar-inner {
+	float: right;
+	width: 400px;
+}
+
+/* HEADER 
+*/
+
+#block-views-backend-header-block {
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+
+}
+
+
+.backend-header-box {
+
+	
+	padding: 10px 0px 10px 0px;
+	font-family: helvetica;
+	background: black;
+	color: white;
+
+
+
+}
+
+.backend-header-title {
+	
+	font-weight: bold;
+	font-size: 30px;
+	margin: auto;
+	text-align: center;
+
+
+}
+
+.backend-header-body {
+	font-size: 12px;
+	font-weight: bold;
+
+	text-align: center;
+}
+
+.backend-header-body p {
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+/* MENU 
+
+BACKEND */
+
+
+.backend-menu-block {
+	font-family: helvetica;
+	margin: 0px 0px 20px 0px;	
+}
+
+.backend-menu-content {
+	margin: auto;
+}
+
+.backend-menu-content ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+.backend-menu-link a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+	margin: 0px 60px 0px 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.backend-menu-link a:hover {
+	color: #CCC;
+}
+
+
+/* BACKEND SIDEBAR HEADER TITLE
+
+SIDE BAR TITLE*/
+
+.backend-sidebar-title {
+	font-family: helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0px 0px 15px 0px;
+}
+
+
+
+
+/* BACKEND FEED 
+
+twitter 
+
+*/
+
+#backend-feed {
+	margin: 20px 0px 0px 0px;
+}
+
+/* BLOCK  */
+
+.backend-side-block {
+	overflow: auto;
+	width: 500px;
+}
+
+
+
+.backend-block-title {
+	overflow: auto;
+	background: black;
+	font-style: helvetica;
+	padding: 5px 10px 3px 8px;
+	font-family: helvetica;
+	font-weight: bold;
+	margin: 0px 30px 10px 0px;
+	color: white;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 12px;
+	
+}
+
+/* TAXONOMY TAG TAGS VIEW */
+
+.backend-taxonomy {
+	font-family: helvetica;
+}
+
+
+/* PAGE VIEW 
+
+BLOG */
+
+.blog-box {
+
+	width: 400px;
+	font-family: helvetica;
+	overflow: auto;
+	margin: 0px 0px 20px 0px;
+
+}
+
+.blog-box-title {
+	margin: 0px 0px 10px 0px;
+}
+
+.blog-box-title a {
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.blog-box-title a:hover {
+	color: blue;
+}
+
+.blog-box-info {
+	
+}
+
+.blog-tag {
+		
+}
+
+.blog-tag a {
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	background: #CCC;
+	padding: 3px;
+}
+
+
+.blog-tag a:hover {
+	color: white;
+	background: black;
+}
+
+.blog-progress {
+
+}
+
+.blog-box-blurb {
+	font-size: 12px;
+	line-height: 25px;
+	margin: 10px 0px 0px 0px;
+
+}
+
+.blog-box-created {
+	font-size: 12px;
+	color: #8B8B8B;
+	float: right;
+}
+
+/*
+	PROJECT BOX
+	
+*/
+
+.project-box {
+	font-family: helvetica;
+	width: 400px;
+	overflow: auto;
+	margin: 0px 0px 20px 0px;
+}
+
+.project-box-txt {
+	float: left;
+	width: 250px;
+}
+
+.project-box-title {
+	margin: 0px 0px 0px 0px;
+}
+
+
+.project-box-title a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.project-box-title a:hover {
+	color: blue;
+}
+
+.project-box-blurb {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0px 0px 0px 0px;
+}
+
+.project-box-currently {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.project-box-status {
+	margin: 18px 0px 0px 0px;
+	float: right;
+	
+}
+
+.project-box-progress {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.done {
+	font-size: 15px;
+}
+
+.project-box-updated {
+	font-size: 12px;
+	text-align: center;
+	color: #8B8B8B;
+}
+
+
+/* NODE */ 
+
+
+
+/* HEADER HEADINGS */
+
+.project-info-headings {
+	color: black;
+	text-decoration: none;
+	background: #ccc;
+	padding: 3px;
+	font-weight: bold;
+	display: inline;
+}
+
+/* SPAN */
+ 
+.currently {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.node-done {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+/* PROJECT INFO - NODE */
+
+.project-info-content {
+	font-family: helvetica;
+	font-size: 12px;
+	width: 400px;
+}
+
+.project-info-title {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.project-info-tags {
+	margin: 8px 0px 8px 0px;	
+}
+
+.project-info-tags a {
+	color: black;
+	text-decoration: none;
+	background: #ccc;
+	padding: 3px;
+	font-weight: bold;
+}
+
+.project-info-body {
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.project-info-status {  /* this wraps .project-info-currently & .project-info-done*/
+	overflow: auto;
+	margin: 8px 0px 20px 0px;
+}
+
+.project-info-currently {
+	float: left;
+	font-size: 14px;
+	line-height: 18px;
+	width: 180px;
+}
+
+.project-info-done {
+	float: right;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.project-info-team {
+	
+}
+
+.project-info-team p {
+	line-height: 25px;	
+}
+
+.project-info-positions {
+	line-height: 20px;
+	margin: 0px 0px 20px 0px;
+}
+
+.project-info-stage {
+	
+}
+
+
+.project-info-stage ol {
+	
+}
+
+
+.project-info-stage ol li {
+	padding: 4px 0px 4px 0px;
+}
+
+
+/* BACKEND POST NODE
+
+backend back-end-post node
+
+ */
+ 
+ .backend-post-title {
+ 	font-size: 36px;
+ 	font-weight: bold;
+ }
+ 
+ .backend-post-body {
+ 	font-size: 36px;
+ 	line-height: 
+ }
+ 
+
+.backend-post-name {
+	margin: 20px 0px 20px 0px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+.backend-post-name a {
+	color: black;
+	text-decoration: none;
+}
+
+/* SUB CONTENT */
+
+
+
+
+.subcontent-backend {
+	width: 400px;
+}
+
+/* updates */
+
+.backend-subcontent-updates-block {
+	margin: 10px 0px 30px 0px;
+}
+
+.block-title-wrapper {
+	margin: 0px 0px 10px 0px;
+	overflow: auto;
+	font-weight: bold;
+}
+
+.backend-block-updates-header {
+	float: left;
+	font-size: 12px;
+	height: 20px;
+	padding: 3px 0px 0px 0px;
+}
+
+.backend-block-updates-header a {
+	text-decoration: none;
+	color: black;
+	font-family: helvetica;
+	background: #ccc;
+	padding: 3px;
+}
+
+
+
+
+.updates-view {
+	font-family: helvetica;
+}
+
+.backend-related-post {
+	margin: 10px 0px 10px 0px;
+}
+
+.backend-related-post-title {
+
+}
+
+.backend-related-post-title a {
+	text-decoration: none;
+	color: black;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+
+.backend-related-post-title a:hover {
+	color: blue;
+	
+}
+
+.backend-related-post-created {
+	font-size: 12px;
+	color: #333;
+}
+
+
+
+/* TAXONOMY TAG PAGE 
+
+TAGS TERM 
+
+*/
+
+
+
+/* SIDE BAR LEFT TAGS
+
+*/
+
+
+.backend-tag-view {
+	text-align: right;
+	font-family: helvetica;
+	margin-top: -30px;
+	font-size: 24px;
+	float: right;
+}
+
+.backend-tag-view ul  {
+	list-style-type: none;
+}
+
+.backend-tag-view ul li  {
+	margin: 10px 0px 10px 0px;	
+}
+
+.backend-tag-view ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+	background: #ccc;
+	font-weight: bold;
+}
+
+.backend-tag-view ul li a:hover {
+	color: white;
+	background: black;
+}
+
+.project-tag-view {
+	text-align: right;
+	font-size: 14px;
+	float: right;
+	width: 400px;
+	overflow: auto;
+	margin-top: -25px;	
+}
+
+.project-tag-view ul {
+	list-style-type: none;
+	font-family: helvetica;
+}
+
+.project-tag-view ul li {
+	margin: 10px 0px 10px 0px;
+}
+
+
+.project-tag-view ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+	background: #ccc;
+	font-weight: bold;
+}
+
+.project-tag-view ul li a:hover {
+	color: white;
+	background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 

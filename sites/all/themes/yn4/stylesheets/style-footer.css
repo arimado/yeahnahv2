@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#footer {
+
+background: #0A0A0A;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+
+
+
+}
+
+
+#footer-view {
+	
+	width: 995px;
+	margin: auto;
+	font-family: helvetica;
+	padding: 10px 0px 0px 0px;	
+	overflow: auto;
+
+}
+
+#footer-logo-links {
+	
+	float: left;
+	padding: 10px 0px 0px 0px;
+
+}
+
+#footer-logo-links ul {
+	
+	list-style-type: none;
+	font-size: 12px;
+
+}
+
+#footer-logo-links ul li {
+	
+	margin: 0px 0px 15px 0px;
+
+}
+
+#footer-logo-links ul a {
+	
+	color: white;
+	text-decoration: none;
+}
+
+#footer-logo-links ul a:hover {
+	
+	text-decoration: underline;
+}
+
+
+#footer-logo {
+	
+	float: left;
+	margin: 15px 0px 0px 0px;
+
+}
+
+#footer-links {
+	
+	float: right;
+	margin: 10px 0px 0px 50px;
+
+}
+
+#footer-contact {
+
+	float: right;
+	color: white;
+	font-size: 12px;
+	padding: 30px; 
+	line-height: 30px;
+	
+
+}
+
+#footer-contact a {
+
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding: 0px 0px 20px 0px;
+	
+}
+
+
+

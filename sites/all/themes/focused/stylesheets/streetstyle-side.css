@@ -1,0 +1,115 @@
+.streetstyle-page-row {
+	float: left;
+	margin: 10px 10px 0px 10px;
+}
+
+.streetstyle-side-box {
+	width: 285px;
+	margin: auto;
+	margin-bottom: 20px;
+	position: relative;
+	font-family: helvetica;
+	color: white;
+	height: 400px;
+}
+
+
+
+.streetstyle-side-img {
+	position: absolute;
+	z-index: -10;
+}
+
+.streetstyle-hover {
+	height: 400px;
+	width: 285px;
+	position: absolute;
+	background: black;
+	opacity: .5;
+}
+
+.streetstyle-link-wrapper {
+	z-index: 40;
+	border: 1px solid red;
+	position: absolute;
+	overflow: auto;
+	font-size: 40px;
+	background: red;
+}
+
+.streetstyle-side-link {
+	position: absolute;
+	border: 1px solid blue;
+	z-index: 40
+	
+}
+
+.streetstyle-side-link a {
+	opacity: 0;
+}
+
+.streetstyle-link { /* inner span */
+	position: absolute;
+	z-index: 600;
+	width: 285px;
+	height: 400px;
+	
+}
+
+.streetstyle-link:hover { /* inner span */
+	color: red;
+	
+}
+
+.streetstyle-side-nick {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 150px;
+	text-align: center;
+	width: 250px;	
+	position: absolute;
+	left: 17.5px;
+}
+
+.streetstyle-side-nick a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.streetstyle-side-nick:hover {
+	
+}
+
+.streetstyle-side-info {
+	position: absolute; 
+	font-weight: bold;
+	top: 350px;
+	left: 80px;
+	text-align: center;
+	
+}
+/*
+.streetstyle-side-box a {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; 
+    z-index:15; 
+    background-color:white; 
+    opacity: 0; 
+    filter: alpha(opacity=1); 
+}
+
+*/
+
+/*
+
+div.streestyle-side-box a:hover {
+	color: blue;
+}
+
+*/

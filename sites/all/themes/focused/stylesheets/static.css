@@ -1,0 +1,143 @@
+/* 
+ABOUT
+*/
+
+#content-about {
+
+}
+
+.about-txt {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+
+.group-photo-wrapper {
+	margin: 0px 0px 30px 0px;
+}
+
+
+.group-photo{
+	margin: auto;
+	width: 615px;
+	height: 355px;
+
+}
+
+
+
+.small-user-profile-box {
+	overflow: auto;
+	width: 180px;
+	float: left;
+	margin: 10px 60px 10px 60px;
+}
+
+.small-user-profile-img {
+float: left;
+}
+
+.small-user-profile-txt {
+	float: right;
+	width: 90px;
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+.small-user-profile-name {
+	font-weight: bold;
+	margin: 5px 0px 10px 0px;
+
+}
+
+.small-user-profile-name a{
+	text-decoration: none;
+	color: black;
+}
+
+.small-user-profile-location {
+
+}
+
+/* 
+
+page not found
+
+*/
+
+#page-not-found {
+	position: relative;
+}
+
+.page-not-found-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.page-not-found-txt-wall {
+	font-family: helvetica;
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.page-not-found-node {
+	background: white;
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+	font-family: helvetica;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+
+/* 
+CONTACT
+*/
+
+.contact-node {
+	text-align: center;
+	margin: 50px 0px 200px 0px;
+	font-family: helvetica;
+}
+
+.contact-node a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

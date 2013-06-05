@@ -1,0 +1,5 @@
+name = "Social Block Module"
+description = "The Block for Social Media"
+core = "7.x"
+version = "7.x-1.0"
+

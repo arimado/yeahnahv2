@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#content-articles {
+	
+
+}
+
+#all-articles-view-wrapper {
+	
+	 width: 640px;
+	
+
+}
+
+#all-articles-view {
+	
+	
+	padding: 10px 0px 0px 30px;
+
+}
+
+
+
+
+#all-articles-box { /* WRAPPER box */
+
+	
+	overflow: auto;
+	width: 570px;
+	margin: 0px 0px 20px 0px;
+
+
+}
+
+#all-articles-title {
+	
+
+
+}
+
+#all-articles-title a {
+	
+
+	color: #333;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+#all-articles-thumbnail {
+	
+	
+	float: left;
+	
+
+}
+
+#all-articles-text { /* WRAPPER text */
+
+	
+	float: right;
+	width: 260px;
+	height: 155px;
+	position: relative;
+
+}
+
+#all-articles-body {
+	
+	
+	font-size: 16px;
+	margin: 0px 0px 20px 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #333;
+}
+
+
+
+#all-articles-name {
+	
+	
+	width: 150px;
+	text-align: center;
+	margin: auto;
+	border-top: 1px solid #333;
+
+}
+
+#all-articles-name a {
+	
+	text-decoration: none;
+	font-style: italic;
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#all-articles-name a:hover {
+	
+	color: #666;
+}
+
+
+
+#all-articles-info { /*WRAPPER info */
+
+	overflow: auto;
+	
+	position: absolute;
+	width: 260px;
+	bottom: 0px;
+
+}
+
+
+#all-articles-tag { 
+	
+	float: left;
+
+}
+#all-articles-tag a { 
+	
+	background: #333;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px 3px 0px 0px;
+}
+
+#all-articles-tag a:hover { /*WRAPPER info end*/
+	
+	background: #666;
+	
+}
+
+
+
+#all-articles-created { /* WRAPPER text end */ /* WRAPPER box end */
+
+	float: right;
+	color: #999;
+	font-style: italic;
+	font-size: 14px;
+}
+
+
+
+

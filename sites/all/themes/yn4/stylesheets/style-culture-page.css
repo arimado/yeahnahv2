@@ -1,0 +1,506 @@
+ /*
+ 
+ THIS CSS CONTAINS ATTRIBUTES FROM THE 'FTEATURED LIFE CONTENT BLOCK'
+
+ */
+
+/*******FEATURED CULTURE CONTENT******/
+
+#feat-culture-block {
+
+	
+
+}
+
+#feat-culture-view {
+	
+	margin: auto;
+	margin-left: 12px; 
+	width: 620px;
+	position: relative;
+	height: 350px;
+	
+
+}
+
+.featured-culture-text {
+
+	width: 300px;
+	float: right;
+
+}
+
+.featured-culture-text {
+	
+	width: 300px;
+	float: right;
+
+}
+
+.featured-culture-view-thumbnail {
+	
+	width: 300px;
+	float: left;
+
+}
+
+
+
+/*****FEATURED REVIEW BLOCK******/
+
+#feat-rev-header {
+
+	margin-top: 10px;
+	font-family: Helvetiaca, sans-serif;
+	color: #333;
+	margin-bottom: 20px;
+	font-size: 10px;
+	
+
+
+}
+
+#feat-rev-block {
+	
+	float: left;
+
+}
+
+#feat-rev-view {
+	
+	padding: 3px;
+	border: 1px solid #999;
+	width: 290px;
+	margin: 20px 0px 0px 12px;
+
+}
+
+#feat-rev-row {
+
+	width: 290px;
+	
+}
+
+#feat-rev-upper {
+	
+	
+	margin-bottom: 20px;
+	padding: 10px 10px 2px 10px;
+	word-wrap:break-word
+	
+}
+
+#feat-rev-grade-wrap {
+	
+	
+	height: 250px;
+	position: relative;
+	background: #333;
+
+}
+
+#feat-rev-grade {
+
+	color: red;
+	position: absolute;
+	bottom: 20%;
+	font-size: 140px;
+	color: white;
+	text-align: center;
+	width: 288px;
+
+	
+
+}
+
+#feat-rev-title {
+	
+	font-size: 45px;
+	word-break: hyphenate;
+
+}
+
+#feat-rev-title {
+	
+
+	font-size: 45px;
+	line-height: 35px;
+	margin-bottom: 10px;
+
+}
+
+#feat-rev-title a {
+	
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+	color: #333;
+
+}
+
+#feat-rev-title a:hover {
+	
+	color: #666;
+
+}
+
+#feat-rev-blurb {
+	
+	font-style: italic;
+	
+
+}
+
+#feat-rev-name {
+	
+	font-style: italic;
+	width: 200px;
+	margin: auto;
+	border-top: 1px solid black;
+	text-align: center;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding-top: 2px;
+
+}
+
+#feat-rev-name a {
+	
+	color: #333;
+	text-decoration: none;
+	
+
+}
+
+#feat-rev-tag {
+	
+	float: left;
+
+}
+
+#feat-rev-tag a {
+	
+	background: #333;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
+#feat-rev-created {
+	
+	
+	float: right;
+	font-style: italic;
+	color: #999;
+	font-size: 11px;
+	padding: 2px;
+	margin-top: 2px;
+
+}
+
+/*****RECENT REVIEW BLOCK******/
+
+.recent-rev {
+
+	 float: right;
+	 width: 310px;
+	 margin: 40px 0px 0px 0px;
+
+}
+
+.recent-rev-text {
+	
+	float: left;
+	width: 250px;
+
+}
+
+
+
+#recent-rev-row {
+
+	overflow: auto;
+	margin: 0px 0px 30px 0px;
+
+}
+
+/**THIS IS WITHIN CUSTOM GLOBAL TEXT FIELD **/
+
+
+#recent-rev-titletag {
+
+	height: 20px;
+	
+
+}
+
+#recent-rev-tag {
+
+	float: left;
+
+}
+
+#recent-rev-tag a {
+
+	background: #333;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
+#recent-rev-tag a:hover {
+
+	background: #666;
+
+}
+
+
+#recent-rev-title {
+	
+
+	float: left;
+	padding: 0px 0px 0px 5px;
+}
+
+
+#recent-rev-title a {
+	
+	color: #000;
+	text-decoration: none;s
+	padding: 2px;
+	font-size: 12px;
+	
+}
+
+#recent-rev-title a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+#recent-rev-small-blurb {
+	
+	color: #666;
+	font-size: 14px;
+	font-style: italic;
+
+}
+
+.recent-rev-grade-border {
+
+	padding: 2px;
+	border: 1px solid #999;
+	overflow: auto;
+	float: right;
+
+}
+
+#recent-rev-grade-wrap {
+	
+	height: 30px;
+	width: 30px;
+	background: #333;
+	float: right;
+	position: relative;
+	padding: 2px;
+
+}
+
+#recent-rev-grade {
+
+	position: absolute;
+	color: red;
+	bottom: 30%;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	width: 30px;
+	
+
+	
+
+}
+
+/*****CULTURE ARTICLES BLOCK******/
+
+#culture-articles-block {
+
+
+	float: left;
+	width: 640px;
+	margin-top: 0px;
+
+}
+
+#culture-articles {
+	
+	width: 600px;
+	
+}
+
+#culture-articles-heading {   /*GO TO 'STYLE.CSS' this is controlled under #view-article */
+
+	font-family: Helvetica, sans-serif;
+	color: #333;
+	font-size: 10px;
+	margin-bottom: 30px;
+	background: #C6F;
+	overflow: auto;
+
+}
+
+
+#culture-articles-box-wrap {
+	
+	float: left;
+	width: 320px;
+	
+}
+
+
+
+#culture-articles-box {
+	
+	width: 295px;
+	padding: 0px 0px 20px 0px;
+	margin: auto;
+
+}
+
+#culture-articles-box a {
+	
+	text-decoration: none;
+
+}
+
+#culture-articles-title-wrap {
+	
+	height: 100px;
+	position: relative;
+
+
+}
+
+#culture-articles-title {
+	
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 30px;
+	font-style: italic;
+	text-transform: uppercase;
+	position:absolute;
+	bottom:0;
+
+}
+
+.culture-articles-title a {
+	
+	color: #333;
+
+}
+
+.culture-articles-title a:hover {
+	
+	color: #666;
+
+}
+
+
+
+.culture-articles-blurb {
+	
+	margin-top: 5px;
+	font-style: italic;
+	font-size: 16px;
+	height: 50px;
+
+}
+
+.culture-articles-thumbnail {
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+
+}
+
+.culture-articles-name {
+	
+	width: 200px;
+	margin: auto;
+	border-top: 2px solid #333;
+	text-align:center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 5px;
+	
+
+}
+
+.culture-articles-name a {
+	
+	color: #333;
+
+}
+
+.culture-articles-name a:hover {
+	
+	color: #666;
+
+}
+
+.culture-articles-tag {
+	
+	float: left;
+	font-family: Arial;
+	color: white;
+	
+
+}
+
+.culture-articles-tag a {
+	
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	z-index: 1000;
+	background: #333;
+	padding: 0px 3px 0px 3px;
+	margin: 0px 3px 0px 0px;
+
+}
+.culture-articles-tag a:hover {
+	
+	background: #666;
+}
+
+.culture-articles-created {
+	
+	float: right;
+	font-style: italic;
+	color: #333;
+
+}
+
+
+/*** FETAURED LIFE CONTENT BLOCK ***/
+
+
+#feat-life-view {
+	
+	height: 350px;
+    margin: auto auto auto 12px;
+    position: relative;
+    width: 620px;
+}

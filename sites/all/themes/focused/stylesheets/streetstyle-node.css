@@ -1,0 +1,189 @@
+/* STREETSTYLE PAGE */
+
+#content-streetstyle {
+	overflow: auto;
+}
+
+
+/* NODE */
+
+.content-streetstyle-body {
+	
+	font-family: helvetica;
+	width: 680px;
+	margin: auto;
+	position: relative;
+	padding: 0px 0px 0px 0px;
+}
+
+.content-streetstyle-body a:hover {
+		
+}
+
+.content-streetstyle-node-header {
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 400px;
+	font-size: 60px;
+	line-height: 44px;
+}
+
+.content-streetstyle-node-main {
+	width: 490px;
+	margin: auto;
+	
+}	
+
+
+.content-streetsyle-link-txt {
+	position: absolute;
+	width: 900px;
+	left: -100px;
+	top: 530px;
+	display: none;
+}
+
+.content-streetsyle-link-txt .prev {
+	width: 100px;
+	text-align: right;
+}
+
+.content-streetsyle-link-txt .next {
+	width: 100px;
+	text-align: left;
+	margin: 0px 20px 10px 0px;
+}
+
+
+.content-streetsyle-link-txt a {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.content-streetstyle-prevnext {
+	position: absolute;
+	width: 650px;
+	top: 600px;
+	right: 15px;
+}
+
+.content-streetstyle-prevnext a {
+	color: white;
+	text-decoration: none;
+	padding: 0px 
+}
+
+.content-streetstyle-prev {
+	font-size: 60px;
+	text-align: right;
+	float: left;
+	background: #CCC;
+	line-height: 30px;
+	padding: 0px 5px 9px 5px;
+
+}
+
+.content-streetstyle-prev:hover {
+	background: black;	
+}
+
+.content-streetstyle-next {
+	font-size: 60px;
+	text-align: right;
+	float: right; 
+	background: #CCC;
+	line-height: 30px;
+	padding: 0px 5px 9px 5px;
+
+}
+
+.content-streetstyle-next:hover {
+	background: black;
+}
+
+.content-streetstyle-img img {
+	
+}
+
+.content-streetstyle-node-txt {
+	font-size: 14px;
+}
+
+.content-streetstyle-node-txt {
+	overflow: auto;
+	margin: auto;
+	width: 490px;
+} 
+
+
+
+.content-streetstyle-node-info {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content-streetstyle-body-txt {
+	line-height: 25px;
+	margin: 30px 0px 0px 0px;
+}
+
+.content-streetstyle-created {
+	font-weight: bold;
+	
+}
+
+.content-streetstyle-created a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+/*  OLD STREETSTYLE THEME
+
+.content-streetstyle-node-info {
+	width: 200px;
+	padding: 0px 35px 0px 0px;
+	float: left;
+	margin:  16px 0px 0px 0px;
+	border-right: 1px solid #ccc;
+}
+
+.streetstyle-field {
+	overflow: auto;
+	margin: 0px 0px 10px 0px;
+}
+
+.streetstyle-label {
+	font-weight: bold;
+	float: left;
+	width: 70px;
+	text-align: right;
+}
+
+.streetstyle-content {
+	float: right;
+	width: 120px;
+}
+
+.content-streetstyle-node-questions {
+	float: right;
+	width: 220px;
+}
+
+
+
+*/
+
+
+/* SUBCONTENT DISQUS REGION */
+
+#subcontent-streetstyle {
+	width: 490px;
+	margin: auto;
+}

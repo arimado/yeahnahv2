@@ -1,0 +1,101 @@
+<?php 
+
+/****
+	*@file
+	*subscription.module
+*****/
+
+// hook_permission
+
+function subscription_permission() {
+  return array(
+    'access mypage' => array(
+      'title' => t('Access My Page'),
+      'description' => t('Access my page on my site.'),
+    ),
+  );
+}
+
+// Implements hook_menu
+
+function subscription_menu() {
+    $items['mypage'] = array(
+      'title' => 'My Page',
+      'type' => MENU_NORMAL_ITEM,
+      'page callback' => 'socialblock_mypage',
+      'access arguments' => array('access mypage'),
+    );
+    return $items;
+}
+
+// My callback function
+
+function subscription_mypage() {
+	return "<strong> this should only appear in there are no places</strong>";
+}
+
+
+// Implements hook_block_info()
+
+
+function subscription_block_info() {
+  // This example comes from node.module.
+  $blocks['subscription'] = array(
+    'info' => t('subscription'),
+  );
+  return $blocks;
+} 
+
+//subscription
+
+  $userEmail = $_POST["userEmail"];
+  $to = "admin@yeahnah.tv";
+  $subject = "User Email";
+  $message = "{$userEmail}" ;
+
+function send_mail($to, $subject, $message) {
+  $my_module = 'custom';
+  $my_mail_token = microtime();
+  $from = variable_get('system_mail', 'My Email Address <example@example.com>');
+  $message = array(
+    'id' => $my_module . '_' . $my_mail_token,
+    'to' => $to,
+    'subject' => $subject,
+    'body' => array($message),
+    'headers' => array(
+      'From' => $from, 
+      'Sender' => $from, 
+      'Return-Path' => $from,
+    ),
+  );
+  $system = drupal_mail_system($my_module, $my_mail_token);
+  $message = $system->format($message);
+  if ($system->mail($message)) {
+    return TRUE;
+  }
+  else {
+    return FALSE;
+  }
+}
+
+//implements hook_block_view
+
+function subscription_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    case 'subscription':
+      $block['subject'] = t('');
+      $block['content'] = subscription_form(); 
+      break;
+  }
+  return $block;
+
+} 
+
+
+
+
+
+

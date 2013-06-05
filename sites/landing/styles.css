@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.body { 
+
+	margin: 0px;
+	background-image:url('file:///Macintosh HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/images/background.jpg');
+
+}
+	
+
+}
+
+.span {
+	
+	position: relative;
+}
+
+.kerser {
+	
+	font-size: 80px;
+	line-height: 80%;
+	
+
+}
+
+/*##################################### FONTS ###########################################*/
+
+
+@font-face {
+	font-family: Oswald-Bold;
+	src: url('file:///Macintosh HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/Oswald-Bold.tff');
+}
+
+
+
+
+
+/*##################################### NAV ###########################################*/
+
+
+
+
+
+
+.logo {
+
+	
+	margin: auto;
+	height: 80px;
+	font-style: italic;	
+	width: 580px;
+	padding-bottom: 5px;
+	
+}
+
+.logo p {
+	
+	font-size:100px;
+	margin-top: 0px;
+	font-family:Oswald-Bold;
+	font-weight: 900;
+	line-height: 80%;
+	text-decoration: 
+}
+
+
+
+
+.ButtonLeft {
+	
+	margin: 0px;
+	list-style: none;
+	display: inline;
+	text-decoration: none;
+	color: #000;
+	float: left;
+	height: 56px;
+	width: 138px; 
+	background-image: url(file:///Macintosh%20HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/images/read_button_white.jpg);
+	display: table-cell;
+	cursor:pointer;
+	
+	
+	
+}
+
+
+.ButtonLeft:hover {
+	
+	
+	background-image: url(file:///Macintosh%20HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/images/read_button.png);
+	
+	
+	
+}
+
+.ButtonRight {
+	
+	margin: 0px;
+	list-style: none;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	float: right;
+	display: inline;
+	height: 56px;
+	width: 138px; 
+	background-image: url(file:///Macintosh%20HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/images/watch_button.png);
+	display: table-cell;
+	cursor:pointer;
+	
+}
+
+.ButtonRight:hover {
+	
+	background-image: url(file:///Macintosh%20HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/images/watch_button_black.jpg);
+	
+}
+	
+	
+.ButtonRight a:hover {
+	
+	background-image: url(file:///Macintosh%20HD/Users/jarimado/Dropbox/business/yeahnah/fullwebsite/images/watch_button_black.jpg);
+	
+}
+
+
+
+
+.readwatch a {
+
+	text-decoration: none;
+	color: #000;
+	font-weight:900;
+
+}
+
+.readwatch a:hover {
+
+	color: #FFF;
+	background-color:#000;
+
+
+
+}
+
+
+
+.storeButton {
+
+	float:right;
+	height: 100px;
+	width: 100px;
+	vertical-align: middle;
+	display: table-cell;
+	margin-top: 50px;
+
+
+	
+
+}
+
+.storeTxt {
+
+	display: inline-block;
+	
+	
+}
+
+.storeTxt a {
+
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+.topLine {
+	
+	margin: auto;
+	height: 10px;
+	width: 580px;
+	
+}
+	
+/*##################################### SPLASH ###########################################*/
+
+.splashWrapper {
+
+	width: 600px;
+	height: 650px;
+	margin: auto;
+
+}
+
+.splashTagline {
+
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	margin: auto;
+	width: 200px;
+	
+}
+
+
+.splashNav {	
+
+	width: 412px;
+	margin: auto;
+	margin-top: 150px;
+	
+}
+
+.splashNav ul {
+	
+	list-style-type: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	
+
+}
+
+.splashNav ul li {
+
+	display: inline;
+	padding: 0;
+	margin: 0;
+	
+	
+	
+}
+
+.splashNav ul li a {
+	
+	color: #FFF;
+	text-decoration: none;
+	background: #000;
+
+}
+
+.splashNav ul li a:hover {
+	
+	background: #FFF;
+	color: #000;
+	
+	
+
+}
+
+.splashInfo {
+	
+	width: 350px;
+	margin: auto;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+
+	
+}
+
+.nav {
+
+margin-top: 150px;
+
+}
+
+#div2 {
+	
+	margin-top: 50px;
+
+}
+
+#div2 p {
+	
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

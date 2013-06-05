@@ -1,0 +1,164 @@
+/* PAGE  + BLOCKS */
+
+#usercontent {
+	width: 590px;
+	float: right;
+	margin: 0px 50px 0px 0px;
+}
+
+#sidebarleft {
+	width: 200px; 
+	float: left;
+	margin: 6px 0px 0px 50px; 
+}
+
+/* USER  PROFILE */
+
+#profile-block {
+	margin: 0px 0px 15px 0px;
+}
+
+.profile-box {
+	overflow: auto;
+}
+
+.profile-img {
+	float: left;
+}
+
+.profile-txt {
+	float: right;
+	width: 340px;
+	font-family: helvetica;
+}	
+
+.profile-name {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 5px 0px 15px 0px;
+}
+
+.profile-location {
+	font-weight: bold;
+	margin: 0px 0px 15px 0px;
+	
+}
+
+.profile-bio {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+
+/* USER ARTICLES */
+
+.writer-page {
+	border: 1px solid red;
+}
+
+
+
+/* WRITERS */
+
+.writers-header {
+	text-align: right;
+	font-size: 30px;
+}
+
+.block-title-writer-side {
+	background: black;
+	display: inline;
+	font-style: helvetica;
+	padding: 4px 10px 3px 8px;
+	font-family: helvetica;
+	font-weight: bold;
+	margin: 0px 0px 0px 7px;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.writer-box-wrapper {
+	overflow: auto;
+}
+
+.writer-box {
+	color: black;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 14px;
+	overflow: visible;
+	float: right;
+	margin-top: 3px;
+}
+
+
+
+.writer-name {
+	margin: 0px 0px 15px 8px;
+	float: left;
+}
+
+.writer-name a {
+	text-decoration: none;
+	color: black;
+	font-family: helvetica;
+	background: #CCC;
+	font-weight: bold;
+	padding: 8px 5px 5px 5px;
+	
+}
+
+.writer-name a:hover {
+	color: white;
+	background: black;
+}
+
+.writer-articles-number {
+	float: right;
+	color: white;
+	
+}
+
+.txt-num {
+	padding: 8px 5px 5px 5px;
+	background: #CCC;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+.most-pop-box {
+	overflow: auto;
+	width: 285px;
+	margin: auto;
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+.most-pop-img {
+	float: left;
+}
+
+
+
+
+.most-pop-txt {
+	float: right;
+	width: 200px;
+	
+}
+
+.most-pop-txt a {
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.most-pop-txt a:hover {
+	color: blue;
+}

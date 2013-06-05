@@ -1,0 +1,368 @@
+
+/*******************************\
+/************GLOBAL*************\
+/*******************************/
+
+#clear {
+	
+	clear: both;
+
+}
+
+::selection {
+background-color: #000;
+color: #ffffff;
+}
+
+#breadcrumbs {
+	
+}
+
+#breadcrumbs ul {
+
+	padding-left: 0px;
+
+}
+
+#breadcrumbs ul li {
+	
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+
+
+/************HEADER*************/
+
+#header {
+	
+	
+	width: 948px;
+	height: 275px;
+	margin: auto;
+	
+}
+
+
+#title {
+
+	margin: auto;
+	height: 80px;
+	font-style: italic;	
+	width: 590px;
+	padding-bottom: 5px;
+	padding-top: 70px;
+	
+}
+
+#title p {
+	
+	font-size:100px;
+	margin-top: 0px;
+	font-family:Oswald-Bold;
+	font-weight: 900;
+	line-height: 80%;
+	text-decoration: 
+}
+
+#titleLine {
+	
+	margin: auto;
+	height: 4px;
+	width: 590px;
+	
+}
+
+
+#buttons {
+	
+	width: 300px;
+	margin: auto;
+	height: 40px;
+	padding-top: 25px;
+	
+	
+}
+
+
+
+#buttonLeft {
+	
+	margin: 0px;
+	list-style: none;
+	display: inline;
+	text-decoration: none;
+	color: #000;
+	float: left;
+	height: 56px;
+	width: 138px; 
+	background-image: url(images/readButtonWhite.jpg);
+	display: table-cell;
+	cursor:pointer;
+	
+}
+
+
+#buttonLeft:hover {
+	
+	
+	background-image: url(images/readButtonBlack.png);	
+}
+
+#buttonRight {
+	
+	margin: 0px;
+	list-style: none;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	float: right;
+	display: inline;
+	height: 56px;
+	width: 138px; 
+	background-image: url(images/watchButtonWhite.png);
+	display: table-cell;
+	cursor:pointer;
+	
+}
+
+#buttonRight:hover {
+	
+	background-image: url(images/watchButtonBlack.jpg);
+	
+}
+	
+#buttons a {
+
+	text-decoration: none;
+	color: #000;
+	font-weight:900;
+
+}
+
+#buttons a:hover {
+
+	color: #FFF;
+	background-color:#000;
+
+}
+
+/*******************************\
+/**********ARTICLE PAGE*********\
+/*******************************/
+
+#wrapper {
+
+		background-image: url(images/bgTop2.jpg), url(images/lightbg5.jpg);
+	margin: auto;
+	background-repeat: no-repeat, repeat-y;
+	background-position: center top, center;
+	width: 1050px;*
+	
+}
+
+#mainContent {
+	
+	
+	width: 950px;
+	margin: auto;
+	
+
+}
+
+#lineBreak {
+	
+	border: 0px;
+	color:#000;
+	background-color: #000;
+	height: 1px;
+	
+}
+
+#lineBreakDiv {
+
+	margin-bot: 10px;
+
+}
+
+/*******************************\
+/***********VIDEO PAGE**********\
+/*******************************/
+
+#videoContent {
+	
+	width: 950px;
+	margin: auto;
+	margin-top: 30px;
+	
+
+}
+
+#video {
+	
+	height: 360px;
+	width: 640px;
+	margin: auto;
+	margin-top: 60px;
+	
+}
+
+#videoInfo {
+	
+	width: 640px;
+	margin: auto;
+	height: 200px;
+
+}
+
+#videoDescription {
+
+	width: 350px;
+	float: left;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+
+
+
+/*******************************\
+/***********SUB CONTENT**********\
+/*******************************/
+
+#subContent {
+	
+	width: 950px;
+	margin: auto;
+
+}
+
+#comments {
+	
+	width: 500px;
+	height: 600px; 
+	float: left;
+}
+
+#related {
+	
+	width: 400px;
+	height: 600px;
+	float: right;
+
+}
+
+/*******************************\
+/************FOOTER*************\
+/*******************************/
+
+
+#footer {
+	
+	margin: auto;
+	width: 1050px;
+	height: 150px;
+	background-image: url("images/footerb.png");
+	overflow: hidden;
+
+}
+
+#buttonsFooter {
+
+	width: 775px;
+	margin: auto;
+	margin-top: 45px;
+
+}
+
+#buttonsFooterLeft {
+	
+	
+	width: 350px;
+	float: left;
+	
+
+}
+
+#buttonsFooterRight {
+	
+	width: 350px;
+	float: right;
+	
+	
+
+}
+
+#buttonAbout {
+	
+	height: 56px;
+	width: 138px;
+	float: left;
+	display: table-cell;
+	background-image: url(images/aboutButtonWhite.png);
+	cursor:pointer;
+	
+
+}
+
+#buttonAbout:hover {
+	
+	background-image: url(images/aboutButtonBlack.png);
+	
+}
+
+#buttonContact {
+	
+	height: 56px;
+	width: 138px;
+	float: right;
+	display: table-cell;
+	background-image: url(images/contactButtonWhite.png);
+	cursor:pointer;
+
+
+}
+
+#buttonContact:hover {
+	
+	background-image: url(images/contactButtonBlack.png);
+	
+}
+
+#buttonJobs {
+	
+	height: 56px;
+	width: 138px;
+	float: left;
+	display: table-cell;
+	background-image: url(images/jobsButtonWhite.png);
+	cursor:pointer;
+
+
+}
+
+#buttonJobs:hover {
+	
+	background-image: url(images/jobsButtonBlack.png);
+	
+}
+
+#buttonDonate {
+	
+	height: 56px;
+	width: 138px;
+	float: right;
+	display: table-cell;
+	background-image: url(images/donateButtonWhite.png);
+	cursor:pointer;
+
+}
+
+#buttonDonate:hover {
+	
+	background-image: url(images/donateButtonBlack.png);
+	
+}
+

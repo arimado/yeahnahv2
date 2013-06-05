@@ -1,0 +1,188 @@
+
+
+/***********review-PAGE***********/
+
+
+
+
+#review-content {
+
+	width: 640px;
+	margin: 0px 0px 0px 0px;
+	padding-top: 0px;
+
+}
+
+#review-title-box {
+
+	border-bottom: 1px solid #F0F0F0;
+	padding-bottom: 5px;
+	width: 640px;
+	overflow: auto;
+
+}
+
+#review-title-text {
+
+	float: left;
+	overflow: auto;
+	margin: 15px 0px 0px 20px;
+
+}
+
+#review-titleblurb-wrap {
+
+	overflow: auto;
+	
+}
+
+#review-titleblurb {
+
+	width: 400px;
+	float: left;
+	overflow: auto;
+
+}
+
+#grade-box-wrap {
+
+	padding: 4px;
+	border: 1px solid #999;
+	overflow: auto;
+	float: right;
+	margin: 10px;
+	
+}
+
+#grade-box {
+
+	padding: 30px; 
+	float: right;
+	color: #FFF;
+	background: #333;
+	font-size: 36px;
+	width: 40px;
+	text-align: center;
+	
+	
+
+}
+
+
+#review-title {
+	
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #333;
+	
+}
+ 
+#review-blurb {
+	 
+	 font-style: italic;
+	 font-size: 15px;
+	 margin-bottom: 10px;
+	 color: #333;
+	 
+
+}
+ 
+#review-image {
+	 
+	 margin: auto;
+	 margin-top: 20px;
+	 
+}
+
+#review-image img {
+	 
+	 margin: auto;
+	 
+}
+
+#review-name {
+	
+	font-weight: bold;
+	font-style: italic;
+	width: 200px;
+	margin: auto;
+	border-top: 2px solid #333;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 14px;
+
+}
+
+#review-name a {
+	
+	
+	text-decoration: none;
+	color: #333;
+	
+
+}
+
+#review-info {
+
+	overflow: auto;
+	
+
+}
+ 
+#review-tag {
+
+	background: #333;
+	padding: 0px 5px 0px 5px;
+	margin: auto;
+	float: left;
+	
+}
+
+#review-tag a {
+
+	
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#review-date {
+
+	float: right;
+	font-style: italic;
+	color: #999;
+
+}
+
+#review-body-subject-img {
+
+	float: right;
+	padding: 30px;
+	margin: 20px 0px 5px 20px;
+
+}
+
+				  
+				  
+#review-body {
+	
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	line-height: 25px;
+	color: #333;
+	word-spacing: 3px;
+	padding: 0px 30px 0px 30px;
+	
+}
+
+#review-body-field {
+
+	float: left;
+
+}

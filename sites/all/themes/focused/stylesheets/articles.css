@@ -1,0 +1,131 @@
+
+
+/*view*/
+.article-view {
+	
+}
+
+.article-view-box {
+	position: relative;
+	overflow: auto;
+	min-height: 170px;
+	margin: 0px 0px 20px 0px;
+	width: 570px;
+	
+}
+
+.article-view-img {
+
+	float: left;
+	position: absolute;
+
+}
+
+.article-view-tag {
+	float: left;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-style: helvetica;
+}
+
+
+.article-view-tag a {
+	float: left;
+	font-family: helvetica;
+	font-size: 11px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px 3px 0px 0px;
+	background: black;
+}
+
+.artivle-view-tag .field-items a {
+}
+
+
+.article-view-tag a:hover {
+	color: black;
+	background: #CCC;
+}
+
+.article-view-txt {
+	float: right;
+	width: 260px;
+	margin: 0px 0px 0px 0px;
+}
+
+.article-view-title {
+	margin: 10px 0px 5px 0px;
+}
+
+.article-view-title a {
+	font-family: helvetica;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.article-view-title a:hover {
+	
+	color: blue;
+}
+
+.article-view-description {
+	font-family: helvetica;
+	font-size: 12px;
+	color: #333;
+	line-height: 22px;
+}
+
+.article-view-info {
+	font-family: helvetica;
+	font-size: 12px;
+	color: #AAAAAA;
+	margin: 0px 0px 10px 0px;
+}
+
+.article-view-info a {
+	font-family: helvetica;
+	font-size: 12px;
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+.article-view-info a:hover {
+	color: blue;
+	
+
+}
+
+.article-view-name {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+/* view footer */
+
+.bottom-title {
+	text-align: right;
+}
+
+.bottom-title a {
+	background: black;
+	font-style: helvetica;
+	padding: 4px 10px 3px 8px;
+	font-family: helvetica;
+	font-weight: bold;
+	margin: 0px 0px 0px 7px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0px 30px 0px 0px;
+}
+
+.bottom-title a:hover {
+	background: #333;
+}
+

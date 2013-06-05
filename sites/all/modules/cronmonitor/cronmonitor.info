@@ -1,0 +1,6 @@
+name = "Cron Monitor"
+description = "Monitor and send on email on cron"
+core = "7.x"
+version = "7.x-1.0";
+configure = admin/config/cronmonitor
+

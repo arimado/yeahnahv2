@@ -1,0 +1,97 @@
+/* BLOCK */
+
+#subcontent {
+
+	width: 550px;
+	margin-left: 10px;
+
+}
+
+.subcontent-block {
+}
+
+/* RELATED */
+
+.related-block {
+
+	margin-bottom: 30px;
+
+}
+
+.related-view {
+	height: 250px;
+	width: 600px;
+}
+
+
+.related-box {
+	float: left;
+	overflow: auto;
+	width: 285px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+
+.related-img {
+	float: left;
+}
+
+.related-txt {
+	float: right;
+	width: 200px;
+}
+
+
+.related-txt a {
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.related-txt a:hover {
+	color: blue;
+}
+
+/* POPULAR */
+
+.pop-block {
+	width: 285px;
+	margin: 10px;
+	float: right;
+	
+}
+
+.pop-block-content {
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: bold;
+	line-height: 18px;
+}
+.pop-block-content a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.pop-block-content a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.pop-block-content ol {
+	padding: 0px 0px 0px 23px;
+	
+}
+
+.pop-block-content ol li {
+	text-decoration: none;
+	margin: 0px 0px 18px 0px;
+	padding: 0px;
+	
+}
+
+
+

@@ -1,0 +1,292 @@
+/* FEATURED STYLE 2 
+
+most of the styles are located in 
+
+article-node.css
+
+so check that.
+
+these are just for the links.
+
+*/
+
+.ft-view {
+	margin: 30px 0px 0px 0px;
+}
+.article-short-title a {
+	font-size: 36px;
+	line-height: 50px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	background: black;
+	padding: 0px 6px 0px 6px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.article-short-title a:hover {
+	color: black;
+	background: #ccc;
+}
+
+.article-info-front {
+	width: 280px;
+	overflow: auto;
+	margin: 30px 0px 0px 0px;
+	position: absolute;
+	right: 13px;
+	bottom: 0px;
+	padding: 0px 0px 8px 0px;
+	border-bottom: 3px solid black;
+}
+
+
+.article-date {
+	font-family: helvetica;
+	font-size: 13px;
+	padding: 3px 0px 0px 0px;
+	font-weight: bold;
+	color: #CCC;
+}
+
+
+
+.article-blurb a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* FEATURED STYLE BLOCK 1
+
+ 
+#ft-block {
+	width: 906px;
+	margin: auto;
+	position: relative;
+	height: 330px;
+	margin: 25px 0px 0px 0px;
+}
+
+.ft-view {
+	width: 906px;
+	height: 320px;
+	position: absolute;
+	left: -5px;
+	
+}
+.ft-article {
+
+	width: 904px;
+	height: 310px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	margin: 5px;
+	
+}
+
+
+
+.ft-article-img {
+	float: left;	
+	height: 310px;
+}
+
+
+
+.ft-article-info {
+	float: right;
+	width: 270px;
+	height: 270px;
+	margin: 20px 20px 0px 0px;
+	position: relative;
+}
+
+.ft-article-title {
+	font-size: 25px;
+	line-height: 30px;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+
+.ft-article-title a {
+	color: black;
+	text-decoration: none;
+}
+
+.ft-article-title a:hover {
+	color: blue;
+}
+
+.ft-article-blurb {
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 5px;
+	font-family: helvetica;
+}
+
+
+.ft-article-blurb a {
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.ft-article-blurb a:hover {
+	text-decoration: underline;
+}
+
+
+.ft-article-bot-info {
+
+	position: absolute;
+	bottom: 0px;
+	width: 270px;
+
+}
+
+.ft-article-tag {
+	float: left;
+}
+
+.ft-article-tag a {
+	font-family: helvetica;
+	font-size: 11px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px 3px 0px 0px;
+	background: black;
+}
+
+.ft-article-tag a:hover {
+	color: blue;	
+	background: white;
+}
+
+.ft-article-created {
+	float: right;
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+
+.ft-article-name {
+	margin: auto;
+	text-align: center;
+	border-top: 2px solid black;
+	margin-top: 20px;
+	padding: 5px 0px 0px 0px;
+	width: 130px;
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+.ft-article-name a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+*/
+
+.views-slideshow-controls-bottom {
+	width: 90px;
+	margin: auto;
+	margin-top: 10px;
+	position: relative;
+}
+
+.view-focused-featured .views-field-counter {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: #CCC;
+	margin-right: 10px;
+}	
+
+.view-focused-featured .views-field-counter:hover {
+	background: #8B8D8D;
+	cursor: pointer;
+}	
+
+
+.view-focused-featured .active .views-field-counter {
+	font-weight: bold;
+	background: black;
+}
+
+.view-focused-featured .views-content-counter {
+	display: none;
+}
+
+#vscc_controls_focused_featured-block {
+	position: absolute;
+	top: -200px;
+	left: -460px;
+	width: 1020px;
+	opacity: 1;
+}
+
+
+#vscc_controls_previous_focused_featured-block {
+	width: 30px
+	height: 30widthpx;
+	
+}
+
+#vscc_controls_next_focused_featured-block {
+	
+}
+
+#vscc_controls_previous_focused_featured-block a {
+	font-size: 60px;
+	line-height: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+
+#vscc_controls_next_focused_featured-block a {
+	font-size: 60px;
+	line-height: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.featured-next-button { /*this is an appended class via jQuery */	
+	float: right;
+	padding: 2px 5px 2px 5px;
+	background: #DDDFDF;
+}
+
+.featured-previous-button {
+	float: left;
+	padding: 2px 5px 2px 5px;
+	background: #DDDFDF;
+	
+}
+
+.featured-previous-button:hover {
+	background: black;	
+}
+
+
+.featured-next-button:hover {
+	background: black;	
+}
+
+
+
+
+

@@ -1,0 +1,362 @@
+/* ARTICLE STYLE 1
+
+.article-content {
+	
+}
+
+.article-box {
+
+	width: 904px;
+	height: 310px;
+
+}
+
+
+.article-img {
+	float: left;	
+}
+
+.article-img img {
+	
+}
+
+
+.article-txt {
+	float: right;
+	width: 270px;
+	height: 270px;
+	margin: 20px 20px 0px 0px;
+	position: relative;
+	font-family: helvetica;
+}
+
+.article-short-title {
+	font-size: 25px;
+	line-height: 30px;
+	font-family: helvetica;
+	font-weight: bold;
+	background: white;
+	
+}
+
+
+.article-blurb {
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+
+.article-blurb a {
+	font-style: italic;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+
+.article-blurb a:hover {
+	text-decoration: underline;
+}
+
+.article-name {
+	margin: auto;
+	text-align: center;
+	border-top: 2px solid black;
+	margin-top: 5px;
+	padding: 5px 0px 0px 0px;
+	width: 130px;
+	font-size: 12px;
+}
+
+.article-name  a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.article-info {
+	
+	bottom: 0px;
+	position: absolute;
+	width: 270px;
+}
+
+.article-tag {
+	float: left;
+	width: 170px;
+}
+
+
+.article-tag a {
+	font-family: helvetica;
+	font-size: 11px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px 3px 0px 0px;
+	background: black;
+	float: left;
+}
+.field-items {
+	
+}
+
+.article-tag a:hover {
+	color: blue;	
+	background: white;
+}
+
+.article-date {
+	float: right;
+	font-size: 11px;
+	padding: 3px;
+	margin: 0px 3px 0px 0px;
+	
+}
+
+
+
+
+
+ARTICLE STYLE 1 END */
+
+/* ARTICLE STYLE 2 */
+
+.article-sidebar {
+	padding-top: 350px;
+}
+
+
+.article-content {
+	
+}
+
+.article-box {
+
+	width: 904px;
+	height: 310px;
+	position: relative;
+	margin: 5px;
+
+	/*
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	*/
+}
+
+
+.article-img {
+	float: left;	
+}
+
+.article-img img {
+	
+}
+
+
+.article-txt {
+	position: absolute;
+	width: 590px;
+	height: 270px;
+	margin: 20px 20px 0px 0px;
+	font-family: helvetica;
+	left: 300px;
+}
+
+.article-short-title {
+	font-size: 36px;
+	line-height: 50px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+}
+
+.article-short-title-txt {
+	background: black;
+	padding: 0px 6px 0px 6px;
+	text-align: right;
+	
+}
+
+.article-blurb-name-info {
+	overflow: auto;
+}
+
+.article-blurb-name {
+	float: right;
+	width: 280px;
+	font-size: 14px;
+}
+
+
+.article-blurb {
+	
+	line-height: 30px;
+}
+
+
+
+.article-blurb a {
+
+}
+
+.article-blurb a:hover {
+
+}
+
+.article-name {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.article-name  a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.article-name  a:hover{
+	color: blue;
+}
+
+.article-info {
+	width: 280px;
+	overflow: auto;
+	margin: 30px 0px 0px 0px;
+	position: absolute;
+	right: 13px;
+	bottom: 0px;
+	padding: 0px 0px 8px 0px;
+	border-bottom: 3px solid black;
+	
+}
+
+.article-tag {
+	float: right;
+	width: 170px;
+}
+
+
+.article-tag a {
+	font-family: helvetica;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px 0px 0px 3px;
+	background: #CCC;
+	float: right;
+	color: black;
+}
+
+.article-tag a:hover {
+	color: white;
+	background: black;
+}
+
+.article-date {
+	float: left;
+}
+
+/* article body */
+
+.node-article {
+	
+}
+
+.article-body-content {
+	
+	height: 100%;
+}
+
+.article-body-wrapper {
+	position: relative;
+}
+
+.article-body-shadow {
+	width: 510px;
+	padding: 0px 20px 0px 20px;
+	background: white;
+	height: 100px;
+	position: absolute;
+	top: -15px;
+	left: 19px;
+	-moz-box-shadow: 0px -3px 8px -2px #000 ;
+	-webkit-box-shadow: 0px -3px 8px -2px #000 ;
+	box-shadow: 0px -3px 8px -2px #000;
+}
+
+.article-body-white-box {
+	width: 510px;
+	padding: 0px 20px 0px 20px;
+	background: white;
+	height: 100px;
+	position: absolute;
+	top: 70px;
+	left: 19px;
+	z-index: 10;
+}
+
+.article-body {
+	font-family: helvetica;
+	line-height: 24px;
+	font-size: 14px;
+	width: 510px;
+	margin: auto;
+	margin-top: -30px;
+	padding: 0px 20px 5px 20px;
+	position: relative;
+	z-index: 20;
+}
+
+.article-body-share-wrapper {
+	
+	
+	clear: both;
+}
+
+.article-body-share {
+	
+	
+}
+
+/* share box add this addthis */
+
+.share-box-article {
+	width: 550px;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-left: 43px;
+}
+
+.share-box-article-txt {
+	color: #919191;
+	font-weight: bold;
+	font-family: helvetica;
+	margin: 0px 0px 20px 0px;
+	font-size: 10px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

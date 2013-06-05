@@ -1,0 +1,102 @@
+
+
+/*****ABOUT*****/
+
+#about-txt {
+
+	width: 800px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 25px 0px 0px 0px;
+	font-family: Helvetica, sans-serif;
+}
+
+#group-photo-wrapper {
+	
+	width: 995px;
+
+}
+
+#group-photo {
+	
+	width: 500px;
+	margin: auto;
+	padding: 25px 0px 25px 0px;
+
+}
+
+
+#group-bios {
+	
+	
+	width: 900px;
+	margin: 40px 0px 0px 100px;
+	padding: 0px 0px 0px 0px;
+	overflow: auto;
+}
+
+#group-bio-single {
+	
+	width: 280px;
+	float: left;
+	margin: 0px 20px 20px 0px;
+
+}
+
+
+#group-bio-single-img {
+
+	width: 100px;
+	height: 100px;
+	float: left;
+
+
+}
+
+
+#group-bio-txt {
+
+	float: right;
+	width: 168px;
+	padding: 12px 0px 12px 0px;
+	font-family: helvetica;
+
+}
+
+#bio-role {
+	
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+#bio-name {
+
+	font-size: 13px;
+
+
+}
+
+
+#bio-name a {
+
+	text-decoration: none;
+	color: #333
+}
+
+#bio-name a:hover {
+
+	color: #333;
+	text-decoration: underline;
+	
+}
+
+#bio-blurb {
+	
+
+	margin-top: 10px;
+	font-size: 10px;
+
+}
+

@@ -1,0 +1,24 @@
+name        = YN4
+description = the_new_yn
+core        = 7.x
+
+stylesheets[all][] = stylesheets/style.css
+stylesheets[all][] = stylesheets/style-video.css
+stylesheets[all][] = stylesheets/style-review.css
+stylesheets[all][] = stylesheets/style-video-page.css
+stylesheets[all][] = stylesheets/style-culture-page.css
+stylesheets[all][] = stylesheets/style-static.css
+stylesheets[all][] = stylesheets/style-articles-page.css
+stylesheets[all][] = stylesheets/style-article.css
+stylesheets[all][] = stylesheets/style-user-profile.css
+stylesheets[all][] = stylesheets/style-footer.css
+
+
+regions[navigation]     = Navigation bar
+regions[header]		= Header
+regions[content]        = Content
+regions[subcontent] = sub content
+regions[sidebar]  = sidebar
+regions[morevideo] = more video
+regions[footer]         = Footer
+

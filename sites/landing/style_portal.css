@@ -1,0 +1,184 @@
+::selection {
+	background-color: #000;
+	color: #ffffff;
+}
+
+
+#wrapper {
+	
+	width: 1000px;
+	margin: auto;
+	
+}
+
+#header {
+
+	font-size: 80px;
+	font-weight: 900;
+	font-style: italic;
+	line-height: 1px;
+	border: 1px solid white;
+	height: 120px;
+	width: 460px;
+	margin: auto;
+	
+
+}
+
+#titleLine {
+	
+	margin: auto;
+	height: 50px;
+	width: 460px;
+	
+}
+
+
+#video {
+
+	margin: auto;
+	width: 560px;
+
+}
+
+#blurb p {
+	
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	line-height: 60px;
+
+}
+
+#emailBlurb {
+
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 70px;
+
+}
+
+#emailForm {
+	
+
+}
+
+
+#emailForm p {
+
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+}
+
+#contactBlurb {
+
+	margin-top: 100px;
+	height: 300px;
+}
+
+#contactBlurb p {
+
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+
+
+
+
+/**********FORM**********/
+
+
+#form {
+
+	width: 314px;
+	height: 40px;
+	margin: auto;
+	margin-top: 15px;
+	
+}
+
+#formBG {
+	
+	width: 340px;
+	height: 70px;
+	background: url(images/email_form.png);
+	margin: auto;
+	border: 1px solid white;
+	
+}
+
+#field   {
+	
+	width:200px;
+	height:38px;
+	float: left;
+	outline: none;
+	border: none;
+	
+}
+
+input { 
+
+	text-align: center; 
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+} 
+
+#field.value {
+
+}
+	
+#field:focus {outline: none;
+
+}
+	
+
+
+#submit {
+	
+	width:110px;
+	color: transparent;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:40px;
+	float: right;
+	border: none;
+	background: #FFF url(images/submit.jpg);
+}
+
+#submit:hover {
+	
+	background: #FFF url(images/submit_w.jpg);
+	cursor: pointer;
+	
+	
+
+}
+
+
+/**********FORM**********/
+
+#redirectBlurb {
+
+	font-size: 36px;
+	font-weight: bold;
+	font-style: italic; 
+	width: 190px;
+	margin: auto;
+	margin-top: 300px;
+
+}
+
+
+/********FB-BOX-LIKE*******/
+
+.fb-like-box {
+	
+	margin: auto;
+	width: 300px;
+	
+}

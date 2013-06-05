@@ -1,0 +1,7 @@
+name = "Form Example"
+description = "Form Example from Shane Thomases Daily Does of Drupal"
+core = "7.x"
+version = "7.x-1.0"
+
+
+

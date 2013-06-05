@@ -1,0 +1,40 @@
+name        = focused
+description = focused theme for YEAHNAH
+core        = 7.x
+
+stylesheets[all][] = stylesheets/global.css
+stylesheets[all][] = stylesheets/navigation.css
+stylesheets[all][] = stylesheets/featured.css
+stylesheets[all][] = stylesheets/ft-front-articles.css
+stylesheets[all][] = stylesheets/articles.css
+stylesheets[all][] = stylesheets/user-login.css
+stylesheets[all][] = stylesheets/video-side.css
+stylesheets[all][] = stylesheets/streetstyle-side.css
+stylesheets[all][] = stylesheets/streetstyle-node.css
+stylesheets[all][] = stylesheets/haiku-side.css
+stylesheets[all][] = stylesheets/article-node.css
+stylesheets[all][] = stylesheets/haiku-page.css
+stylesheets[all][] = stylesheets/haiku-node-page.css
+stylesheets[all][] = stylesheets/most-pop-side.css
+stylesheets[all][] = stylesheets/subcontent.css
+stylesheets[all][] = stylesheets/user-page.css
+stylesheets[all][] = stylesheets/videos-page.css
+stylesheets[all][] = stylesheets/video-node.css
+stylesheets[all][] = stylesheets/taxonomy-page.css
+stylesheets[all][] = stylesheets/backend.css
+stylesheets[all][] = stylesheets/static.css
+
+
+scripts[] = js/global.js
+
+regions[navigation]     = Navigation bar
+regions[header] 	 = Header
+regions[content]        = Content
+regions[subcontent]        = Sub Content
+regions[usercontent]        = User Content
+regions[sidebar]  	 = sidebar
+regions[sidebarleft]  	 = sidebar left
+regions[backend_sidebar] = backend_sidebar
+regions[footer]           = Footer
+
+

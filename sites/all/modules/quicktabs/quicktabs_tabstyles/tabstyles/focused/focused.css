@@ -1,0 +1,67 @@
+
+.quicktabs_main.quicktabs-style-focused{
+
+
+	
+
+}
+ul.quicktabs-tabs.quicktabs-style-focused{
+   /**TOPICS**/
+   position: relative;
+  
+}
+ul.quicktabs-tabs.quicktabs-style-focused a{
+
+	 /**SINGLE TOPIC**/
+	font-family: Helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+	margin-left: 0px;
+	 padding: 4px 10px 3px 8px;
+ 
+}
+ul.quicktabs-tabs.quicktabs-style-focused a:hover{
+  
+}
+ul.quicktabs-tabs.quicktabs-style-focused li{
+	
+	 /**SINGLE TOPIC**/
+	 margin-left: 0px;
+	padding-left: 0px;
+	
+	
+	
+
+ 
+}
+ul.quicktabs-tabs.quicktabs-style-focused li:hover{
+}
+
+
+ul.quicktabs-tabs.quicktabs-style-focused a:hover{
+    background: black;
+    color: white;
+    display: inline;
+    font-family: helvetica;
+    font-weight: bold;
+    margin: 0 0 0 0px;
+    padding: 4px 10px 3px 8px;
+    text-transform: uppercase;
+}
+
+ul.quicktabs-tabs.quicktabs-style-focused li.active{
+ 
+}
+ul.quicktabs-tabs.quicktabs-style-focused li.active a{
+    background: black;
+    color: white;
+    display: inline;
+    font-family: helvetica;
+    font-weight: bold;
+    margin: 0 0 0 0px;
+    padding: 4px 10px 3px 8px;
+    text-transform: uppercase;
+  
+}

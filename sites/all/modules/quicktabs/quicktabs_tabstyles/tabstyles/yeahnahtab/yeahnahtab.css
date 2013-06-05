@@ -1,0 +1,59 @@
+
+.quicktabs_main.quicktabs-style-yeahnahtab{
+	
+	
+	margin: 0px 0px 0px 20px;
+
+	
+
+}
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab{
+
+   /**TOPICS**/
+   border-top: 0px;
+   width: 200px;
+   margin-left: 50px;
+  
+}
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab a{
+
+	 /**SINGLE TOPIC**/
+	font-family: Helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	color: #333;
+	margin-left: 0px;
+	padding-left: 0px;
+ 
+}
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab a:hover{
+  
+  	color: red;
+  
+}
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab li{
+	
+	 /**SINGLE TOPIC**/
+	 margin-left: 0px;
+	border: 1px solid #CCC;
+	padding: 0px 6px 0px 6px;
+	
+	
+	
+
+ 
+}
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab li:hover{
+	
+ 
+}
+
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab li.active{
+ 
+}
+ul.quicktabs-tabs.quicktabs-style-yeahnahtab li.active a{
+	
+	color: red;
+  
+}

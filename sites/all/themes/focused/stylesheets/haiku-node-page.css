@@ -1,0 +1,67 @@
+#content-haiku-node-page {
+
+	
+}
+
+.content-streetstyle-node-main {
+
+margin-bottom: 20px;
+}
+
+.content-haiku-node {
+	border-bottom: 1px solid black;
+	width: 400px;
+	margin: 100px 0px 20px 300px;
+	font-size: 30px;
+	font-family: georgia;
+	line-height: 50px;
+}
+
+.content-haiku-node-author {
+	width: 400px;
+		font-family: georgia;
+	margin: 0px 0px 0px 300px;
+}
+
+.submitted-haiku {
+	display: inline-block;
+
+}
+
+.share-box-haiku {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 100px;
+	margin-left: 300px;
+	width: 400px;
+}
+
+.prev-haiku a:hover {
+	text-decoration: underline;
+}
+
+.next	-haiku a:hover {
+	text-decoration: underline;
+}
+
+.more-link {
+	text-transform: uppercase;
+	float: right;
+}
+.more-link a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	background: black;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.more-link a:hover {
+	background: #333;
+}
+
+.more-streetstyle {
+	margin: 20px 0px 20px 0px;
+	
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#user-profile-wrapper {
+	
+	width: 640px;
+	border-bottom: 1px solid #F0F0F0;
+	padding: 0px 0px 20px 0px;
+	margin: 15px 0px 0px 0px;
+	
+
+}
+
+#user-profile {
+	
+	width: 575px;
+	overflow: auto;
+	margin: auto;
+	
+
+}
+
+#user-profile-img {
+
+	float: left;
+
+}
+
+#user-profile-text {
+	
+	float: right;
+	width: 380px;
+	font-family: Times;
+	color: #333;
+}
+
+#user-profile-name {
+	
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 28px;
+	color: black;	
+}
+
+#user-profile-body {
+	
+	font-size: 14px;
+
+}
+

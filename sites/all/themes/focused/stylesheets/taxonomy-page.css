@@ -1,0 +1,80 @@
+.taxonomy-page-title {
+	font-size: 30px;
+	color: white;
+	background: black;
+	padding: 10px;
+	font-weight: bold;
+	font-family: helvetica;
+	display: inline-block;
+	margin: -4px 0px 7px 0px;
+}
+
+
+/* SIDE REGION */
+
+.sidebarleft-tags {
+
+}
+
+
+/* VIEW */
+
+.side-tags-a {
+	margin: 0px 0px 25px 0px;
+}
+
+.side-tags-a a {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.side-tags-b a {
+	font-size: 15px;
+	padding: 5px;
+}
+
+.side-tag {    /* this is side tag a */
+	text-align: right;
+	margin: 0px 0px 25px 0px;
+}
+
+.side-tag-b {
+	text-align: right;
+	margin: 0px 0px 15px 0px;
+}
+
+.side-tag-b a {
+	text-decoration: none;
+	font-family: helvetica;
+	color: black;
+	background: #CCC;
+	font-weight: bold;
+}
+
+.side-tag-b a:hover {
+	text-decoration: none;
+	font-family: helvetica;
+	color:white;
+	background: black;
+	
+	font-weight: bold;
+}
+
+.side-tag a {
+	text-decoration: none;
+	font-family: helvetica;
+	color: black;
+	background: #CCC;
+	font-weight: bold;
+	
+}
+
+.side-tag a:hover {
+	text-decoration: none;
+	font-family: helvetica;
+	color:white;
+	background: black;
+	font-weight: bold;
+	
+	
+}

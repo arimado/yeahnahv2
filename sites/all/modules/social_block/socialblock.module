@@ -1,0 +1,67 @@
+<?php 
+
+/****
+	*@file
+	*socialblock.module
+*****/
+
+// hook_permission
+
+function socialblock_permission() {
+  return array(
+    'access mypage' => array(
+      'title' => t('Access My Page'),
+      'description' => t('Access my page on my site.'),
+    ),
+  );
+}
+
+// Implements hook_menu
+
+function socialblock_menu() {
+    $items['mypage'] = array(
+      'title' => 'My Page',
+      'type' => MENU_NORMAL_ITEM,
+      'page callback' => 'socialblock_mypage',
+      'access arguments' => array('access mypage'),
+    );
+    return $items;
+}
+
+// My callback function
+
+function socialblock_mypage() {
+	return "<strong> this should only appear in there are no places</strong>";
+}
+
+
+
+// Implements hook_block_info()
+
+
+function socialblock_block_info() {
+  // This example comes from node.module.
+  $blocks['socialblock'] = array(
+    'info' => t('My Social Block'),
+  );
+  return $blocks;
+} 
+
+//implements hook_block_view
+
+function socialblock_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    case 'socialblock':
+      $block['subject'] = t('');
+      $block['content'] = '<div class="fb-like-box fb-like-box-side" data-href="https://www.facebook.com/yeahnah.tv" data-width="300" data-height="200" data-show-faces="true" data-stream="false" data-show-border="false" data-header="false"></div>'; 
+      break;
+  }
+  return $block;
+}
+
+
+
+

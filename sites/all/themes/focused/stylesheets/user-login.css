@@ -1,0 +1,75 @@
+/* Login */
+
+
+#user-login-region {
+
+border: 1px solid red;
+
+}
+
+#content-login {
+
+	width: 910px;
+	margin: 0px 0px 500px 0px;
+}
+
+.user-login-wrapper {
+	font-family: helvetica;
+	text-align: center;
+	color: #AAAAAA;
+}
+
+.username {
+
+
+}
+
+.user-login-wrapper label {
+
+	text-transform: lowercase;
+
+}
+
+.user-login-wrapper .form-text {
+
+	border: none;
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+.user-login-wrapper .form-text input:focus {
+	
+	outline: none;
+
+}
+
+input:focus {
+
+	outline: none;
+
+}
+
+#edit-name {
+
+}
+
+.welcome {
+
+	text-align: center;
+	font-family: helvetica;
+	font-size: 18px;
+	margin: 0px 0px 60px 0px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
